@@ -1,0 +1,16 @@
+{
+    "name": "electron-website",
+    "version": "0.0.1",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+        "clean": "rm -rf ./node_modules && rm -rf ./out",
+        "reinstall": "npm run clean && npm install",
+        "start": "electron ./build/main.js"
+    },
+    "author": "Gabe Ochoa",
+    "license": "ISC",
+    "devDependencies": {
+        "electron": "^13.1.7"
+    }
+}
